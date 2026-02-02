@@ -1,0 +1,57 @@
+# Configuration for awesome-flow-matching-autoupdate
+
+# Search terms for finding flow matching papers
+search_terms:
+  - "flow matching"
+  - "rectified flow"
+  - "stochastic interpolant"
+  - "continuous normalizing flow"
+
+# Minimum citation count required for inclusion
+min_citations: 10
+
+# Top-tier venues (papers from these venues are included if they meet citation threshold)
+top_venues:
+  # ML/AI
+  - NeurIPS
+  - NIPS
+  - ICML
+  - ICLR
+  - AAAI
+  - IJCAI
+  # Computer Vision
+  - CVPR
+  - ICCV
+  - ECCV
+  # NLP
+  - ACL
+  - EMNLP
+  - NAACL
+  # Others
+  - SIGGRAPH
+  - Nature
+  - Science
+  - JMLR
+  - TMLR
+
+# Categories for paper classification
+categories:
+  - name: "Foundational"
+    description: "Core flow matching methodology and frameworks"
+  - name: "Theory"
+    description: "Theoretical analysis, convergence, mathematical foundations"
+  - name: "Schrödinger Bridge"
+    description: "Schrödinger bridge related methods"
+  - name: "Discrete Data"
+    description: "Flow matching for discrete/non-continuous data"
+  - name: "Accelerating"
+    description: "Methods for faster sampling and inference"
+  - name: "Applications"
+    description: "Domain-specific applications (vision, audio, biology, etc.)"
+
+# Original repository to check for duplicates
+original_repo: "dongzhuoyao/awesome-flow-matching"
+original_readme_url: "https://raw.githubusercontent.com/dongzhuoyao/awesome-flow-matching/main/README.md"
+
+# How many days back to search (for incremental updates)
+search_days_back: 7
