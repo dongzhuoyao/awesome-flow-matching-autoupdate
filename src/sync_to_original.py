@@ -2,6 +2,7 @@
 """Sync new papers to the original awesome-flow-matching repo."""
 from __future__ import annotations
 
+import os
 import re
 import subprocess
 import sys
@@ -47,13 +48,18 @@ def main():
     original_repo_dir = Path("/tmp/awesome-flow-matching")
     original_readme = original_repo_dir / "README.md"
 
-    # Clone original repo
+    # Clone original repo (use GH_TOKEN for auth if available)
     print("Cloning original repo...")
     subprocess.run(["rm", "-rf", str(original_repo_dir)], check=True)
+
+    gh_token = os.environ.get("GH_TOKEN", "")
+    if gh_token:
+        clone_url = f"https://x-access-token:{gh_token}@github.com/dongzhuoyao/awesome-flow-matching.git"
+    else:
+        clone_url = "https://github.com/dongzhuoyao/awesome-flow-matching.git"
+
     subprocess.run([
-        "git", "clone",
-        "https://github.com/dongzhuoyao/awesome-flow-matching.git",
-        str(original_repo_dir)
+        "git", "clone", clone_url, str(original_repo_dir)
     ], check=True)
 
     # Get existing papers
