@@ -129,6 +129,28 @@ def load_existing_papers(readme_url: str) -> tuple[set[str], set[str]]:
     return arxiv_ids, titles
 
 
+def load_local_readme(readme_path: str) -> tuple[set[str], set[str]]:
+    """
+    Load existing papers from a local README file.
+
+    Args:
+        readme_path: Path to the local README file
+
+    Returns:
+        Tuple of (arxiv_ids, titles)
+    """
+    try:
+        with open(readme_path, "r") as f:
+            content = f.read()
+        arxiv_ids = extract_arxiv_ids(content)
+        titles = extract_paper_titles(content)
+        print(f"Found {len(arxiv_ids)} arXiv IDs and {len(titles)} titles in local README")
+        return arxiv_ids, titles
+    except FileNotFoundError:
+        print("Local README not found, starting fresh")
+        return set(), set()
+
+
 if __name__ == "__main__":
     # Test deduplication
     url = "https://raw.githubusercontent.com/dongzhuoyao/awesome-flow-matching/main/README.md"

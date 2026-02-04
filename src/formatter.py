@@ -127,7 +127,7 @@ def generate_readme(
     lines = [
         "# Awesome Flow Matching - Auto Updated",
         "",
-        "[![Auto Update](https://github.com/YOUR_USERNAME/awesome-flow-matching-autoupdate/actions/workflows/update-papers.yml/badge.svg)](https://github.com/YOUR_USERNAME/awesome-flow-matching-autoupdate/actions/workflows/update-papers.yml)",
+        "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub stars](https://img.shields.io/github/stars/dongzhuoyao/awesome-flow-matching.svg?style=social&label=Star)](https://github.com/dongzhuoyao/awesome-flow-matching)",
         "",
         "Automatically curated list of flow matching papers with **10+ citations**.",
         "",
@@ -181,6 +181,70 @@ def generate_readme(
     ])
 
     return "\n".join(lines)
+
+
+def validate_markdown(content: str) -> list[str]:
+    """
+    Validate markdown content for common issues.
+
+    Returns:
+        List of warning messages (empty if valid)
+    """
+    warnings = []
+
+    lines = content.split('\n')
+
+    # Check for basic structure
+    if not content.startswith('# '):
+        warnings.append("Missing main heading (should start with '# ')")
+
+    # Check for unbalanced bold markers
+    bold_count = content.count('**')
+    if bold_count % 2 != 0:
+        warnings.append(f"Unbalanced bold markers (**): found {bold_count}")
+
+    # Check for unbalanced italic markers (single *)
+    # Count single asterisks not part of **
+    import re
+    single_asterisks = len(re.findall(r'(?<!\*)\*(?!\*)', content))
+    if single_asterisks % 2 != 0:
+        warnings.append(f"Unbalanced italic markers (*): found {single_asterisks}")
+
+    # Check for broken links
+    links = re.findall(r'\[([^\]]*)\]\(([^)]*)\)', content)
+    for text, url in links:
+        if not url or url.isspace():
+            warnings.append(f"Empty link URL for text: '{text}'")
+        if not text:
+            warnings.append(f"Empty link text for URL: '{url}'")
+
+    # Check for duplicate arXiv IDs
+    arxiv_ids = re.findall(r'arxiv\.org/abs/(\d{4}\.\d{4,5})', content)
+    seen_ids = set()
+    for arxiv_id in arxiv_ids:
+        clean_id = arxiv_id.split('v')[0]
+        if clean_id in seen_ids:
+            warnings.append(f"Duplicate arXiv ID: {clean_id}")
+        seen_ids.add(clean_id)
+
+    # Check for empty sections
+    section_pattern = r'^## ([^\n]+)\n\n(?=## |---|$)'
+    empty_sections = re.findall(section_pattern, content, re.MULTILINE)
+    for section in empty_sections:
+        warnings.append(f"Empty section: {section}")
+
+    # Check TOC links match actual sections
+    toc_links = re.findall(r'\[([^\]]+)\]\(#([^)]+)\)', content)
+    section_headers = re.findall(r'^## ([^\n]+)$', content, re.MULTILINE)
+    section_anchors = {h.lower().replace(' ', '-').replace('ö', 'o'): h for h in section_headers}
+
+    for toc_text, toc_anchor in toc_links:
+        if toc_anchor not in section_anchors and toc_anchor not in ['', 'awesome.re']:
+            # Skip external links
+            if not toc_anchor.startswith('http'):
+                warnings.append(f"TOC link '#{toc_anchor}' has no matching section")
+
+    return warnings
 
 
 if __name__ == "__main__":

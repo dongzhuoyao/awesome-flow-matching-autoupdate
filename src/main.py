@@ -15,9 +15,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from sources.arxiv import search_arxiv, Paper
 from sources.semantic_scholar import search_semantic_scholar, get_paper_details
 from sources.openalex import search_openalex, get_citation_count_openalex
-from dedup import load_existing_papers, is_duplicate, normalize_title
+from dedup import load_existing_papers, load_local_readme, is_duplicate, normalize_title
 from classifier import classify_paper
-from formatter import generate_readme
+from formatter import generate_readme, validate_markdown
 
 
 def load_config() -> dict:
@@ -211,20 +211,31 @@ def main():
 
     # Load config
     config = load_config()
+    readme_path = Path(__file__).parent.parent / "README.md"
 
-    # Load existing papers from original repo
-    print("\nLoading existing papers from original repository...")
-    existing_arxiv_ids, existing_titles = load_existing_papers(
+    # Step 1: Load existing papers from original repo (dongzhuoyao/awesome-flow-matching)
+    print("\n[Step 1] Loading existing papers from original repository...")
+    print(f"  Source: {config['original_readme_url']}")
+    orig_arxiv_ids, orig_titles = load_existing_papers(
         config["original_readme_url"]
     )
 
-    # Fetch papers from all sources
-    print("\nFetching papers from sources...")
+    # Step 2: Load existing papers from our local README (to avoid self-duplicates)
+    print("\n[Step 2] Loading existing papers from local README...")
+    local_arxiv_ids, local_titles = load_local_readme(str(readme_path))
+
+    # Merge both sets for comprehensive deduplication
+    existing_arxiv_ids = orig_arxiv_ids | local_arxiv_ids
+    existing_titles = orig_titles | local_titles
+    print(f"\nTotal unique papers to exclude: {len(existing_arxiv_ids)} arXiv IDs, {len(existing_titles)} titles")
+
+    # Step 3: Fetch papers from all sources
+    print("\n[Step 3] Fetching papers from sources...")
     all_papers = fetch_all_papers(config)
     print(f"\nTotal papers found with {config['min_citations']}+ citations: {len(all_papers)}")
 
-    # Filter duplicates
-    print("\nFiltering duplicates...")
+    # Step 4: Filter duplicates (incremental update - only new papers)
+    print("\n[Step 4] Filtering duplicates (incremental update)...")
     new_papers = filter_duplicates(all_papers, existing_arxiv_ids, existing_titles)
     print(f"New papers after deduplication: {len(new_papers)}")
 
@@ -232,7 +243,8 @@ def main():
         print("\nNo new papers to add!")
         return
 
-    # Classify papers
+    # Step 5: Classify papers
+    print("\n[Step 5] Classifying papers...")
     papers_by_category = classify_papers(new_papers)
 
     # Print summary
@@ -242,16 +254,25 @@ def main():
         if papers:
             print(f"  {category}: {len(papers)} papers")
 
-    # Generate README
-    print("\nGenerating README.md...")
+    # Step 6: Generate README
+    print("\n[Step 6] Generating README.md...")
     readme_content = generate_readme(papers_by_category, datetime.utcnow())
 
+    # Step 7: Sanity check - validate markdown format
+    print("\n[Step 7] Validating markdown format...")
+    warnings = validate_markdown(readme_content)
+    if warnings:
+        print("  Warnings found:")
+        for warning in warnings:
+            print(f"    ⚠ {warning}")
+    else:
+        print("  ✓ Markdown validation passed")
+
     # Write README
-    readme_path = Path(__file__).parent.parent / "README.md"
     with open(readme_path, "w") as f:
         f.write(readme_content)
 
-    print(f"README written to {readme_path}")
+    print(f"\nREADME written to {readme_path}")
     print("\nDone!")
 
 

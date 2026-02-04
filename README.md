@@ -1,6 +1,6 @@
 # Awesome Flow Matching - Auto Updated
 
-[![Auto Update](https://github.com/YOUR_USERNAME/awesome-flow-matching-autoupdate/actions/workflows/update-papers.yml/badge.svg)](https://github.com/YOUR_USERNAME/awesome-flow-matching-autoupdate/actions/workflows/update-papers.yml)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub stars](https://img.shields.io/github/stars/dongzhuoyao/awesome-flow-matching.svg?style=social&label=Star)](https://github.com/dongzhuoyao/awesome-flow-matching)
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
