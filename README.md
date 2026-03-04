@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-03-02 06:25 UTC
+Last updated: 2026-03-04 06:21 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -21,10 +21,10 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Applications
 
-**Generative Predictive Control: Flow Matching Policies for Dynamic and Difficult-to-Demonstrate Tasks**\
-*Vince Kurtz, J. W. Burdick*\
-arXiv.org 2025. (cited: 10) [[Paper](https://arxiv.org/abs/2502.13406)]\
-Feb 2025
+**A high-order semi-Lagrangian method for the consistent Monte-Carlo solution of stochastic Lagrangian drift-diffusion models coupled with Eulerian discontinuous spectral element method**\
+*H. Natarajan, P. Popov, G. Jacobs*\
+arXiv 2020. (cited: 10) [[Paper](https://arxiv.org/abs/2009.07340)]\
+Sep 2020
 
 ---
 
