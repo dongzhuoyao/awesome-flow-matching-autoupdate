@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-03-09 06:29 UTC
+Last updated: 2026-03-10 06:25 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -16,31 +16,15 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 ## Table of Contents
 
 - [Foundational](#foundational) (1 papers)
-- [Accelerating](#accelerating) (1 papers)
-- [Applications](#applications) (1 papers)
 
 ---
 
 ## Foundational
 
-**Energy Matching: Unifying Flow Matching and Energy-Based Models for Generative Modeling**\
-*M. Balcerak, Tamaz Amiranashvili, Suprosanna Shit, Antonio Terpin, Sebastian Kaltenbach, et al.*\
-arXiv.org 2025. (cited: 13) [[Paper](https://arxiv.org/abs/2504.10612)]\
-Apr 2025
-
-## Accelerating
-
-**Gaussian Mixture Flow Matching Models**\
-*Hansheng Chen, Kai Zhang, Hao Tan, Zexiang Xu, Fujun Luan, et al.*\
-International Conference on Machine Learning 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2504.05304)]\
-Apr 2025
-
-## Applications
-
-**Electron flow matching for generative reaction mechanism prediction**\
-*J. F. Joung, Mun Hong Fong, Nicholas Casetti, Jordan P. Liles, Ne S. Dassanayake, et al.*\
-Nature 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2502.12979)]\
-Feb 2025
+**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
+*Qiang Liu*\
+arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
+Sep 2022
 
 ---
 
