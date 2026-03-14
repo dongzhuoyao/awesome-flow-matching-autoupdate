@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-03-13 06:26 UTC
+Last updated: 2026-03-14 06:27 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,21 +15,16 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Applications](#applications) (2 papers)
+- [Foundational](#foundational) (1 papers)
 
 ---
 
-## Applications
+## Foundational
 
-**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
-*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
-arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
-Oct 2021
-
-**SplatFlow: Multi-View Rectified Flow Model for 3D Gaussian Splatting Synthesis**\
-*Hyojun Go, Byeongjun Park, Jiho Jang, Jin-Young Kim, S. Joon Kwon, et al.*\
-Computer Vision and Pattern Recognition 2024. (cited: 23) [[Paper](https://arxiv.org/abs/2411.16443)]\
-Nov 2024
+**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
+*Qiang Liu*\
+arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
+Sep 2022
 
 ---
 
