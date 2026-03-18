@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-03-17 06:37 UTC
+Last updated: 2026-03-18 06:32 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,16 +15,42 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Applications](#applications) (1 papers)
+- [Foundational](#foundational) (2 papers)
+- [Accelerating](#accelerating) (1 papers)
+- [Applications](#applications) (2 papers)
 
 ---
 
+## Foundational
+
+**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
+*Qiang Liu*\
+arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
+Sep 2022
+
+**Energy Matching: Unifying Flow Matching and Energy-Based Models for Generative Modeling**\
+*M. Balcerak, Tamaz Amiranashvili, Suprosanna Shit, Antonio Terpin, Sebastian Kaltenbach, et al.*\
+arXiv.org 2025. (cited: 13) [[Paper](https://arxiv.org/abs/2504.10612)]\
+Apr 2025
+
+## Accelerating
+
+**Gaussian Mixture Flow Matching Models**\
+*Hansheng Chen, Kai Zhang, Hao Tan, Zexiang Xu, Fujun Luan, et al.*\
+International Conference on Machine Learning 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2504.05304)]\
+Apr 2025
+
 ## Applications
 
-**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
-*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
-arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
-Oct 2021
+**Electron flow matching for generative reaction mechanism prediction**\
+*J. F. Joung, Mun Hong Fong, Nicholas Casetti, Jordan P. Liles, Ne S. Dassanayake, et al.*\
+Nature 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2502.12979)]\
+Feb 2025
+
+**SplatFlow: Multi-View Rectified Flow Model for 3D Gaussian Splatting Synthesis**\
+*Hyojun Go, Byeongjun Park, Jiho Jang, Jin-Young Kim, S. Joon Kwon, et al.*\
+Computer Vision and Pattern Recognition 2024. (cited: 24) [[Paper](https://arxiv.org/abs/2411.16443)]\
+Nov 2024
 
 ---
 
