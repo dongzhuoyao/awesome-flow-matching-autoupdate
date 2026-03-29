@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-03-28 06:24 UTC
+Last updated: 2026-03-29 06:31 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -16,38 +16,23 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 ## Table of Contents
 
 - [Foundational](#foundational) (1 papers)
-- [Applications](#applications) (4 papers)
+- [Applications](#applications) (1 papers)
 
 ---
 
 ## Foundational
 
-**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
-*Qiang Liu*\
-arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
-Sep 2022
+**Flow Matching: Markov Kernels, Stochastic Processes and Transport Plans**\
+*C. Wald, G. Steidl*\
+arXiv.org 2025. (cited: 13) [[Paper](https://arxiv.org/abs/2501.16839)]\
+Jan 2025
 
 ## Applications
 
-**Flow Matching for Medical Image Synthesis: Bridging the Gap Between Speed and Quality**\
-*M. Yazdani, Yasamin Medghalchi, Pooria Ashrafian, I. Hacihaliloglu, Dena Shahriari*\
-International Conference on Medical Image Computing and Computer-Assisted Intervention 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2503.00266)]\
-Mar 2025
-
-**DNAEdit: Direct Noise Alignment for Text-Guided Rectified Flow Editing**\
-*Chenxi Xie, Ming-hui Li, Shuai Li, Yuhui Wu, Qiaosi Yi, et al.*\
-arXiv.org 2025. (cited: 10) [[Paper](https://arxiv.org/abs/2506.01430)]\
-Jun 2025
-
-**SplatFlow: Multi-View Rectified Flow Model for 3D Gaussian Splatting Synthesis**\
-*Hyojun Go, Byeongjun Park, Jiho Jang, Jin-Young Kim, S. Joon Kwon, et al.*\
-Computer Vision and Pattern Recognition 2024. (cited: 26) [[Paper](https://arxiv.org/abs/2411.16443)]\
-Nov 2024
-
-**A high-order semi-Lagrangian method for the consistent Monte-Carlo solution of stochastic Lagrangian drift-diffusion models coupled with Eulerian discontinuous spectral element method**\
-*H. Natarajan, P. Popov, G. Jacobs*\
-arXiv 2020. (cited: 10) [[Paper](https://arxiv.org/abs/2009.07340)]\
-Sep 2020
+**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
+*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
+arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
+Oct 2021
 
 ---
 
