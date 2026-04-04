@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-04-03 06:38 UTC
+Last updated: 2026-04-04 06:30 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,21 +15,54 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Foundational](#foundational) (2 papers)
+- [Foundational](#foundational) (1 papers)
+- [Applications](#applications) (7 papers)
 
 ---
 
 ## Foundational
 
-**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
-*Qiang Liu*\
-arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
-Sep 2022
+**Energy Matching: Unifying Flow Matching and Energy-Based Models for Generative Modeling**\
+*M. Balcerak, Tamaz Amiranashvili, Suprosanna Shit, Antonio Terpin, Sebastian Kaltenbach, et al.*\
+arXiv.org 2025. (cited: 14) [[Paper](https://arxiv.org/abs/2504.10612)]\
+Apr 2025
 
-**Flow Matching: Markov Kernels, Stochastic Processes and Transport Plans**\
-*C. Wald, G. Steidl*\
-arXiv.org 2025. (cited: 13) [[Paper](https://arxiv.org/abs/2501.16839)]\
+## Applications
+
+**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
+*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
+arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
+Oct 2021
+
+**Flow Matching for Medical Image Synthesis: Bridging the Gap Between Speed and Quality**\
+*M. Yazdani, Yasamin Medghalchi, Pooria Ashrafian, I. Hacihaliloglu, Dena Shahriari*\
+International Conference on Medical Image Computing and Computer-Assisted Intervention 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2503.00266)]\
+Mar 2025
+
+**HY-Motion 1.0: Scaling Flow Matching Models for Text-To-Motion Generation**\
+*Yuxin Wen, Qing Shuai, Di Kang, Jing Li, Cheng Wen, et al.*\
+arXiv.org 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2512.23464)]\
+Dec 2025
+
+**Electron flow matching for generative reaction mechanism prediction**\
+*J. F. Joung, Mun Hong Fong, Nicholas Casetti, Jordan P. Liles, Ne S. Dassanayake, et al.*\
+Nature 2025. (cited: 14) [[Paper](https://arxiv.org/abs/2502.12979)]\
+Feb 2025
+
+**DNAEdit: Direct Noise Alignment for Text-Guided Rectified Flow Editing**\
+*Chenxi Xie, Ming-hui Li, Shuai Li, Yuhui Wu, Qiaosi Yi, et al.*\
+arXiv.org 2025. (cited: 11) [[Paper](https://arxiv.org/abs/2506.01430)]\
+Jun 2025
+
+**3D-MoE: A Mixture-of-Experts Multi-modal LLM for 3D Vision and Pose Diffusion via Rectified Flow**\
+*Yueen Ma, Yuzheng Zhuang, Jianye Hao, Irwin King*\
+arXiv.org 2025. (cited: 10) [[Paper](https://arxiv.org/abs/2501.16698)]\
 Jan 2025
+
+**SplatFlow: Multi-View Rectified Flow Model for 3D Gaussian Splatting Synthesis**\
+*Hyojun Go, Byeongjun Park, Jiho Jang, Jin-Young Kim, S. Joon Kwon, et al.*\
+Computer Vision and Pattern Recognition 2024. (cited: 26) [[Paper](https://arxiv.org/abs/2411.16443)]\
+Nov 2024
 
 ---
 
