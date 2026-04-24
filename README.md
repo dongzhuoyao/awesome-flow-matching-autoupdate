@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-04-23 06:48 UTC
+Last updated: 2026-04-24 06:47 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,24 +15,16 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Foundational](#foundational) (1 papers)
-- [Discrete Data](#discrete-data) (1 papers)
+- [Applications](#applications) (1 papers)
 
 ---
 
-## Foundational
+## Applications
 
-**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
-*Qiang Liu*\
-arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
-Sep 2022
-
-## Discrete Data
-
-**Exponential Family Variational Flow Matching for Tabular Data Generation**\
-*Andr'es Guzm'an-Cordero, Floor Eijkelboom, Jan-Willem van de Meent*\
-International Conference on Machine Learning 2025. (cited: 13) [[Paper](https://arxiv.org/abs/2506.05940)]\
-Jun 2025
+**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
+*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
+arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
+Oct 2021
 
 ---
 
