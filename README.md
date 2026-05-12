@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-05-11 07:17 UTC
+Last updated: 2026-05-12 07:04 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,42 +15,26 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Foundational](#foundational) (1 papers)
-- [Accelerating](#accelerating) (1 papers)
 - [Applications](#applications) (3 papers)
 
 ---
 
-## Foundational
-
-**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
-*Qiang Liu*\
-arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
-Sep 2022
-
-## Accelerating
-
-**Streaming Flow Policy: Simplifying diffusion/flow-matching policies by treating action trajectories as flow trajectories**\
-*Sunshine Jiang, Xiaolin Fang, Nicholas Roy, Tom'as Lozano-P'erez, L. Kaelbling, et al.*\
-arXiv.org 2025. (cited: 15) [[Paper](https://arxiv.org/abs/2505.21851)]\
-May 2025
-
 ## Applications
 
-**floq: Training Critics via Flow-Matching for Scaling Compute in Value-Based RL**\
-*Bhavya Agrawalla, Michal Nauman, Khushi Agarwal, Aviral Kumar*\
-arXiv.org 2025. (cited: 14) [[Paper](https://arxiv.org/abs/2509.06863)]\
+**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
+*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
+arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
+Oct 2021
+
+**FiVE: A Fine-grained Video Editing Benchmark for Evaluating Emerging Diffusion and Rectified Flow Models**\
+*Ming-hui Li, Chenxi Xie, Yichen Wu, Lei Zhang, Mengyu Wang*\
+arXiv.org 2025. (cited: 11) [[Paper](https://arxiv.org/abs/2503.13684)]\
+Mar 2025
+
+**Efficient Rectified Flow for Image Fusion**\
+*Zirui Wang, Jiayi Zhang, Tianwei Guan, Yuhan Zhou, Xingyuan Li, et al.*\
+arXiv.org 2025. (cited: 10) [[Paper](https://arxiv.org/abs/2509.16549)]\
 Sep 2025
-
-**Generative Predictive Control: Flow Matching Policies for Dynamic and Difficult-to-Demonstrate Tasks**\
-*Vince Kurtz, J. W. Burdick*\
-arXiv.org 2025. (cited: 13) [[Paper](https://arxiv.org/abs/2502.13406)]\
-Feb 2025
-
-**A high-order semi-Lagrangian method for the consistent Monte-Carlo solution of stochastic Lagrangian drift-diffusion models coupled with Eulerian discontinuous spectral element method**\
-*H. Natarajan, P. Popov, G. Jacobs*\
-arXiv 2020. (cited: 10) [[Paper](https://arxiv.org/abs/2009.07340)]\
-Sep 2020
 
 ---
 
