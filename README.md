@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-06-18 07:47 UTC
+Last updated: 2026-06-19 08:02 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,41 +15,16 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Applications](#applications) (6 papers)
+- [Applications](#applications) (1 papers)
 
 ---
 
 ## Applications
 
-**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
-*Qiang Liu*\
-arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
-Sep 2022
-
-**FlowDAS: A Stochastic Interpolant-based Framework for Data Assimilation**\
-*Siyi Chen, Yixuan Jia, Qing Qu, He Sun, Jeffrey A. Fessler*\
-arXiv 2025. (cited: 11) [[Paper](https://arxiv.org/abs/2501.16642)]\
-Jan 2025
-
-**A high-order semi-Lagrangian method for the consistent Monte-Carlo solution of stochastic Lagrangian drift-diffusion models coupled with Eulerian discontinuous spectral element method**\
-*H. Natarajan, P. Popov, G. Jacobs*\
-arXiv 2020. (cited: 10) [[Paper](https://arxiv.org/abs/2009.07340)]\
-Sep 2020
-
-**Tilt Matching for Scalable Sampling and Fine-Tuning**\
-*Peter Potaptchik, C. Lee, M. Albergo*\
-arXiv.org 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2512.21829)]\
-Dec 2025
-
-**Markovian Flow Matching: Accelerating MCMC with Continuous Normalizing Flows**\
-*A. Cabezas, Louis Sharrock, C. Nemeth*\
-Neural Information Processing Systems 2024. (cited: 10) [[Paper](https://arxiv.org/abs/2405.14392)]\
-May 2024
-
-**Normalizing flow sampling with Langevin dynamics in the latent space**\
-*Florentin Coeurdoux, N. Dobigeon, P. Chainais*\
-Machine-mediated learning 2023. (cited: 10) [[Paper](https://arxiv.org/abs/2305.12149)]\
-May 2023
+**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
+*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
+arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
+Oct 2021
 
 ---
 
