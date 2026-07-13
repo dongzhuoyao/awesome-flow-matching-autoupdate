@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-07-12 08:19 UTC
+Last updated: 2026-07-13 09:10 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,21 +15,16 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Applications](#applications) (2 papers)
+- [Applications](#applications) (1 papers)
 
 ---
 
 ## Applications
 
-**Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design**\
-*Andrew T. Campbell, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola*\
-PubMed 2024. (cited: 10) [[Paper](https://arxiv.org/abs/2402.04997)]\
-Feb 2024
-
-**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
-*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
-arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
-Oct 2021
+**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
+*Qiang Liu*\
+arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
+Sep 2022
 
 ---
 
