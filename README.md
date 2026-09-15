@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-09-14 11:37 UTC
+Last updated: 2026-09-15 10:57 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,31 +15,26 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Applications](#applications) (4 papers)
+- [Applications](#applications) (3 papers)
 
 ---
 
 ## Applications
 
-**PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction**\
-*Kanglei Zhou, Hubert P. H. Shum, Frederick W. B. Li, Xingxing Zhang, Xiaohui Liang*\
-IEEE Transactions on Image Processing 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2505.19972)]\
-May 2025
+**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
+*Qiang Liu*\
+arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
+Sep 2022
 
-**$π_0$: A Vision-Language-Action Flow Model for General Robot Control**\
-*Black, Kevin, Noah Brown, Danny Driess, A. Esmail, Michael Equi, et al.*\
-arXiv (Cornell University) 2024. (cited: 11) [[Paper](https://arxiv.org/abs/2410.24164)]\
-Oct 2024
+**Markovian Flow Matching: Accelerating MCMC with Continuous Normalizing Flows**\
+*A. Cabezas, Louis Sharrock, C. Nemeth*\
+Neural Information Processing Systems 2024. (cited: 13) [[Paper](https://arxiv.org/abs/2405.14392)]\
+May 2024
 
-**Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design**\
-*Andrew T. Campbell, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola*\
-PubMed 2024. (cited: 11) [[Paper](https://arxiv.org/abs/2402.04997)]\
-Feb 2024
-
-**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
-*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
-arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
-Oct 2021
+**Normalizing flow sampling with Langevin dynamics in the latent space**\
+*Florentin Coeurdoux, N. Dobigeon, P. Chainais*\
+Machine-mediated learning 2023. (cited: 10) [[Paper](https://arxiv.org/abs/2305.12149)]\
+May 2023
 
 ---
 
