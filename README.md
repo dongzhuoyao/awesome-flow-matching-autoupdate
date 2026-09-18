@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-09-17 10:57 UTC
+Last updated: 2026-09-18 10:31 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,56 +15,41 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Applications](#applications) (9 papers)
+- [Applications](#applications) (6 papers)
 
 ---
 
 ## Applications
 
-**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
-*Qiang Liu*\
-arXiv (Cornell University) 2022. (cited: 10) [[Paper](https://arxiv.org/abs/2209.14577)]\
-Sep 2022
-
-**FiVE: A Fine-grained Video Editing Benchmark for Evaluating Emerging Diffusion and Rectified Flow Models**\
-*Ming-hui Li, Chenxi Xie, Yichen Wu, Lei Zhang, Mengyu Wang*\
-arXiv.org 2025. (cited: 16) [[Paper](https://arxiv.org/abs/2503.13684)]\
-Mar 2025
-
-**ReFlex: Text-Guided Editing of Real Images in Rectified Flow via Mid-Step Feature Extraction and Attention Adaptation**\
-*Jimyeong Kim, Jungwon Park, Yeji Song, N. Kwak, Wonjong Rhee*\
-IEEE International Conference on Computer Vision 2025. (cited: 16) [[Paper](https://arxiv.org/abs/2507.01496)]\
-Jul 2025
-
-**Fast Image Super-Resolution via Consistency Rectified Flow**\
-*Jiaqi Xu, Wenbo Li, Hao-Ze Sun, Fan Li, Zhixin Wang, et al.*\
-IEEE International Conference on Computer Vision 2026. (cited: 20) [[Paper](https://arxiv.org/abs/2605.12377)]\
-May 2026
-
-**Efficient Rectified Flow for Image Fusion**\
-*Zirui Wang, Jia-Yi Zhang, Tianwei Guan, Yuhan Zhou, Xingyuan Li, et al.*\
-Neural Information Processing Systems 2025. (cited: 16) [[Paper](https://arxiv.org/abs/2509.16549)]\
-Sep 2025
-
-**PPGFlowECG: Latent Rectified Flow with Cross-Modal Encoding for PPG-Guided ECG Generation and Cardiovascular Disease Detection**\
-*Xiao-Cheng Fang, Jiarui Jin, Haoyu Wang, Che Liu, Jieyi Cai, et al.*\
-arXiv.org 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2509.19774)]\
-Sep 2025
-
-**Adams Bashforth Moulton Solver for Inversion and Editing in Rectified Flow**\
-*Yong-Jia Ma, Donglin Di, Xuan Liu, Xiao-Kai Chen, Lei Fan, et al.*\
-arXiv.org 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2503.16522)]\
-Mar 2025
-
-**LoRAShop: Training-Free Multi-Concept Image Generation and Editing with Rectified Flow Transformers**\
-*Yusuf Dalva, Hidir Yesiltepe, Pinar Yanardag*\
-Neural Information Processing Systems 2025. (cited: 13) [[Paper](https://arxiv.org/abs/2505.23758)]\
+**PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction**\
+*Kanglei Zhou, Hubert P. H. Shum, Frederick W. B. Li, Xingxing Zhang, Xiaohui Liang*\
+IEEE Transactions on Image Processing 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2505.19972)]\
 May 2025
 
-**I-Max: Maximize the Resolution Potential of Pre-trained Rectified Flow Transformers with Projected Flow**\
-*Ruoyi Du, Dongyang Liu, Le Zhuo, Qi Qin, Hongsheng Li, et al.*\
-arXiv.org 2024. (cited: 23) [[Paper](https://arxiv.org/abs/2410.07536)]\
+**$π_0$: A Vision-Language-Action Flow Model for General Robot Control**\
+*Black, Kevin, Noah Brown, Danny Driess, A. Esmail, Michael Equi, et al.*\
+arXiv (Cornell University) 2024. (cited: 11) [[Paper](https://arxiv.org/abs/2410.24164)]\
 Oct 2024
+
+**Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design**\
+*Andrew T. Campbell, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola*\
+PubMed 2024. (cited: 11) [[Paper](https://arxiv.org/abs/2402.04997)]\
+Feb 2024
+
+**Scaling Up Machine Learning For Quantum Field Theory with Equivariant\n Continuous Flows**\
+*Pim de Haan, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
+arXiv (Cornell University) 2021. (cited: 12) [[Paper](https://arxiv.org/abs/2110.02673)]\
+Oct 2021
+
+**Markovian Flow Matching: Accelerating MCMC with Continuous Normalizing Flows**\
+*A. Cabezas, Louis Sharrock, C. Nemeth*\
+Neural Information Processing Systems 2024. (cited: 14) [[Paper](https://arxiv.org/abs/2405.14392)]\
+May 2024
+
+**Normalizing flow sampling with Langevin dynamics in the latent space**\
+*Florentin Coeurdoux, N. Dobigeon, P. Chainais*\
+Machine-mediated learning 2023. (cited: 10) [[Paper](https://arxiv.org/abs/2305.12149)]\
+May 2023
 
 ---
 
