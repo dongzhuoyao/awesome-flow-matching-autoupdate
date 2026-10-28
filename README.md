@@ -4,7 +4,7 @@
 
 Automatically curated list of flow matching papers with **10+ citations**.
 
-Last updated: 2026-10-27 11:36 UTC
+Last updated: 2026-10-28 12:05 UTC
 
 This repository automatically tracks new flow matching papers from arXiv and Semantic Scholar,
 filtering for quality (minimum 10 citations) and categorizing them using AI.
@@ -15,61 +15,266 @@ Original curated list: [awesome-flow-matching](https://github.com/dongzhuoyao/aw
 
 ## Table of Contents
 
-- [Applications](#applications) (10 papers)
+- [Applications](#applications) (51 papers)
 
 ---
 
 ## Applications
 
-**Audiobox: Unified Audio Generation with Natural Language Prompts**\
-*Apoorv Vyas, Bowen Shi, Matthew Le, Andros Tjandra, Yi-Chiao Wu, et al.*\
-arXiv (Cornell University) 2023. (cited: 23) [[Paper](https://arxiv.org/abs/2312.15821)]\
-Dec 2023
+**Matcha-TTS: A Fast TTS Architecture with Conditional Flow Matching**\
+*Shivam Mehta, Ruibo Tu, Jonas Beskow, Éva Székely, Gustav Eje Henter*\
+IEEE International Conference on Acoustics Speech and Signal Processing 2023. (cited: 97) [[Paper](https://arxiv.org/abs/2309.03199)]\
+Sep 2023
 
-**CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens**\
-*Zhihao Du, Qian Chen, Shiliang Zhang, Kai Hu, Heng Lu, et al.*\
-arXiv (Cornell University) 2024. (cited: 22) [[Paper](https://arxiv.org/abs/2407.05407)]\
-Jul 2024
+**Flow-Matching: Efficient Coarse-Graining of Molecular Dynamics without Forces**\
+*Jonas Köhler, Yaoyi Chen, Andreas Krämer, Cecilia Clementi, Frank Noé*\
+Journal of Chemical Theory and Computation 2022. (cited: 66) [[Paper](https://arxiv.org/abs/2203.11167)]\
+Mar 2022
 
-**Flow matching beyond kinematics: Generating jets with particle identification and trajectory displacement information**\
-*Joschka Birk, Erik Buhmann, Cedric Ewen, Gregor Kasieczka, David Shih*\
-Physical review. D/Physical review. D. 2023. (cited: 11) [[Paper](https://arxiv.org/abs/2312.00123)]\
-Dec 2023
+**E2 TTS: Embarrassingly Easy Fully Non-Autoregressive Zero-Shot TTS**\
+*Şefik Emre Eskimez, Xiaofei Wang, Manthan Thakker, Canrun Li, Chung-Hsien Tsai, et al.*\
+IEEE Spoken Language Technology Workshop (SLT) 2024. (cited: 42) [[Paper](https://arxiv.org/abs/2406.18009)]\
+Jun 2024
 
-**GestureLSM: Latent Shortcut Based Co-Speech Gesture Generation with Spatial-Temporal Modeling**\
-*Pinxin Liu, Luchuan Song, Junhua Huang, Haiyang Liu, Chenliang Xu*\
-IEEE/CVF International Conference on Computer Vision (ICCV) 2025. (cited: 10) [[Paper](https://arxiv.org/abs/2501.18898)]\
-Jan 2025
+**Mean Flows for One-step Generative Modeling**\
+*Zhengyang Geng, Mingyang Deng, Xingjian Bai, J. Zico Kolter, Kaiming He*\
+neural information processing systems 2025. (cited: 36) [[Paper](https://arxiv.org/abs/2505.13447)]\
+May 2025
 
-**SANA-Sprint: One-Step Diffusion with Continuous-Time Consistency Distillation**\
-*Junsong Chen, Shuchen Xue, Yuyang Zhao, Jincheng Yu, Sayak Paul, et al.*\
-IEEE/CVF International Conference on Computer Vision (ICCV) 2025. (cited: 10) [[Paper](https://arxiv.org/abs/2503.09641)]\
-Mar 2025
+**P2DFlow: A Protein Ensemble Generative Model with SE(3) Flow Matching**\
+*Yaowei Jin, Qi Huang, Ziyang Song, Mingyue Zheng, Dan Teng, et al.*\
+Journal of Chemical Theory and Computation 2024. (cited: 33) [[Paper](https://arxiv.org/abs/2411.17196)]\
+Nov 2024
 
-**Flow Matching for Optimal Reaction Coordinates of Biomolecular Systems**\
-*Mingyuan Zhang, Zhicheng Zhang, Hao Wu, Yong Wang*\
-Journal of Chemical Theory and Computation 2024. (cited: 10) [[Paper](https://arxiv.org/abs/2408.17139)]\
-Aug 2024
+**MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis**\
+*Ho Kei Cheng, Masato Ishii, Akio Hayakawa, Takashi Shibuya, Alexander Gerhard Schwing, et al.*\
+IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings 2024. (cited: 30) [[Paper](https://arxiv.org/abs/2412.15322)]\
+Dec 2024
 
-**One-loop matching of the CP-odd three-gluon operator to the gradient flow**\
-*Òscar L. Crosas, Christopher J. Monahan, Matthew David Rizik, Andrea Shindler, Peter Stoffer*\
-Physics Letters B 2023. (cited: 10) [[Paper](https://arxiv.org/abs/2308.16221)]\
-Aug 2023
+**FlowPolicy: Enabling Fast and Robust 3D Flow-Based Policy via Consistency Flow Matching for Robot Manipulation**\
+*Qinglun Zhang, Zhen Liu, Haoqiang Fan, Guanghui Liu, Bing Zeng, et al.*\
+Proceedings of the AAAI Conference on Artificial Intelligence 2024. (cited: 27) [[Paper](https://arxiv.org/abs/2412.04987)]\
+Dec 2024
 
-**Simulation-free Schrödinger bridges via score and flow matching**\
-*Alexander Tong, Nikolay Malkin, Kilian Fatras, Lazar Atanackovic, Yan‐Lei Zhang, et al.*\
-arXiv (Cornell University) 2023. (cited: 10) [[Paper](https://arxiv.org/abs/2307.03672)]\
-Jul 2023
+**CaloDREAM – Detector response emulation via attentive flow matching**\
+*Luigi Favaro, Ayodele Ore, Sofia Palacios Schweitzer, Tilman Plehn*\
+SciPost Physics 2024. (cited: 26) [[Paper](https://arxiv.org/abs/2405.09629)]\
+May 2024
 
-**AnimateAnyMesh: A Feed-Forward 4D Foundation Model for Text-Driven Universal Mesh Animation**\
-*Zijie Wu, Chaohui Yu, Fan Wang, Xiang Bai*\
-IEEE/CVF International Conference on Computer Vision (ICCV) 2025. (cited: 11) [[Paper](https://arxiv.org/abs/2506.09982)]\
+**Stable Flow: Vital Layers for Training-Free Image Editing**\
+*Omri Avrahami, Or Patashnik, Ohad Fried, Egor Nemchinov, Kfir Aberman, et al.*\
+IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings 2024. (cited: 25) [[Paper](https://arxiv.org/abs/2411.14430)]\
+Nov 2024
+
+**vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation**\
+*Bastian Wittmann, Yannick Wattenberg, Tamaz Amiranashvili, Suprosanna Shit, Bjoern H. Menze*\
+IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings 2024. (cited: 25) [[Paper](https://arxiv.org/abs/2411.17386)]\
+Nov 2024
+
+**CrystalFlow: a flow-based generative model for crystalline materials**\
+*Xiaoshan Luo, Zhenyu Wang, Qingchang Wang, Xuechen Shao, Jian Lv, et al.*\
+Nature Communications 2024. (cited: 23) [[Paper](https://arxiv.org/abs/2412.11693)]\
+Dec 2024
+
+**Transferable Boltzmann Generators**\
+*Leon Klein, Frank Noé*\
+neural information processing systems 2024. (cited: 18) [[Paper](https://arxiv.org/abs/2406.14426)]\
+Jun 2024
+
+**Show-o2: Improved Native Unified Multimodal Models**\
+*Jinheng Xie, Zhenheng Yang, Mike Zheng Shou*\
+neural information processing systems 2025. (cited: 15) [[Paper](https://arxiv.org/abs/2506.15564)]\
 Jun 2025
 
-**Scaling Up Machine Learning For Quantum Field Theory with Equivariant Continuous Flows**\
-*de Haan, Pim, Corrado Rainone, Miranda C. N. Cheng, Roberto Bondesan*\
-arXiv (Cornell University) 2021. (cited: 11) [[Paper](https://arxiv.org/abs/2110.02673)]\
-Oct 2021
+**Flow Matching Imitation Learning for Multi-Support Manipulation**\
+*Quentin Rouxel, Andrea Ferrari, Serena Ivaldi, Jean-Baptiste Mouret*\
+IEEE-RAS International Conference on Humanoid Robots (Humanoids) 2024. (cited: 15) [[Paper](https://arxiv.org/abs/2407.12381)]\
+Jul 2024
+
+**FlowAVSE: Efficient Audio-Visual Speech Enhancement with Conditional Flow Matching**\
+*Chaeyoung Jung, Su‐Yeon Lee, Ji-Hoon Kim, Joon Son Chung*\
+Interspeech (USB) 2024. (cited: 15) [[Paper](https://arxiv.org/abs/2406.09286)]\
+Jun 2024
+
+**Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design**\
+*Campbell, Andrew, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola*\
+PubMed 2024. (cited: 15) [[Paper](https://arxiv.org/abs/2402.04997)]\
+Feb 2024
+
+**FlowLLM: Flow Matching for Material Generation with Large Language Models as Base Distributions**\
+*Anuroop Sriram, Benjamin Miller, Ricky Chen, Brandon M. Wood*\
+neural information processing systems 2024. (cited: 15) [[Paper](https://arxiv.org/abs/2410.23405)]\
+Oct 2024
+
+**Flowing from Words to Pixels: A Noise-Free Framework for Cross-Modality Evolution**\
+*Qihao Liu, Xi Yin, Alan Yuille, Andrew Brown, Mannat Singh*\
+IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings 2024. (cited: 14) [[Paper](https://arxiv.org/abs/2412.15213)]\
+Dec 2024
+
+**StableVC: Style Controllable Zero-Shot Voice Conversion with Conditional Flow Matching**\
+*Jixun Yao, Yang Yuguang, Yu Pan, Ziqian Ning, Jianhao Ye, et al.*\
+Proceedings of the AAAI Conference on Artificial Intelligence 2024. (cited: 14) [[Paper](https://arxiv.org/abs/2412.04724)]\
+Dec 2024
+
+**DFADD: The Diffusion and Flow-Matching Based Audio Deepfake Dataset**\
+*Jiawei Du, I-Ming Lin, I-Hsiang Chiu, Xuanjun Chen, Haibin Wu, et al.*\
+IEEE Spoken Language Technology Workshop (SLT) 2024. (cited: 14) [[Paper](https://arxiv.org/abs/2409.08731)]\
+Sep 2024
+
+**$π_0$: A Vision-Language-Action Flow Model for General Robot Control**\
+*Black, Kevin, Noah Brown, Danny Driess, Esmail, Adnan, Michael Equi, et al.*\
+arXiv (Cornell University) 2024. (cited: 13) [[Paper](https://arxiv.org/abs/2410.24164)]\
+Oct 2024
+
+**PHI: Bridging Domain Shift in Long-Term Action Quality Assessment via Progressive Hierarchical Instruction**\
+*Kanglei Zhou, Hubert P. H. Shum, Frederick W. B. Li, Xingxing Zhang, Xiaohui Liang*\
+IEEE Transactions on Image Processing 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2505.19972)]\
+May 2025
+
+**LAFMA: A Latent Flow Matching Model for Text-to-Audio Generation**\
+*Wenhao Guan, Kaidi Wang, Wangjin Zhou, Yang Wang, Feng Deng, et al.*\
+Interspeech (USB) 2024. (cited: 12) [[Paper](https://arxiv.org/abs/2406.08203)]\
+Jun 2024
+
+**Faces that Speak: Jointly Synthesising Talking Face and Speech from Text**\
+*Youngjoon Jang, Ji‐Hoon Kim, Junseok Ahn, Doyeop Kwak, Hong-Sun Yang, et al.*\
+IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings 2024. (cited: 11) [[Paper](https://arxiv.org/abs/2405.10272)]\
+May 2024
+
+**Structured 3D Latents for Scalable and Versatile 3D Generation**\
+*Jianfeng Xiang, Zelong Lv, Sicheng Xu, Deng‐Guang Yu, Ruicheng Wang, et al.*\
+IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings 2024. (cited: 280) [[Paper](https://arxiv.org/abs/2412.01506)]\
+Dec 2024
+
+**SparseFlex: High-Resolution and Arbitrary-Topology 3D Shape Modeling**\
+*Xianglong He, Zi–Xin Zou, Chia-Hao Chen, Yuan-Chen Guo, Liang Ding, et al.*\
+IEEE/CVF International Conference on Computer Vision (ICCV) 2025. (cited: 20) [[Paper](https://arxiv.org/abs/2503.21732)]\
+Mar 2025
+
+**Towards Enhanced Image Inpainting: Mitigating Unwanted Object Insertion and Preserving Color Consistency**\
+*Yikai Wang, Chenjie Cao, Jinhui Yu, Ke Fan, Xiangyang Xue, et al.*\
+IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings 2023. (cited: 17) [[Paper](https://arxiv.org/abs/2312.04831)]\
+Dec 2023
+
+**MM-TTS: Multi-Modal Prompt Based Style Transfer for Expressive Text-to-Speech Synthesis**\
+*Wenhao Guan, Yishuang Li, Tao Li, Hukai Huang, Feng Wang, et al.*\
+Proceedings of the AAAI Conference on Artificial Intelligence 2023. (cited: 16) [[Paper](https://arxiv.org/abs/2312.10687)]\
+Dec 2023
+
+**Prompt-Guided Dual Latent Steering for Inversion Problems**\
+*Yichen Wu, Tony Liu, Chenxuan Zhao, Xinyu Wu*\
+International Conference on Digital Image Computing: Techniques and Applications (DICTA) 2025. (cited: 13) [[Paper](https://arxiv.org/abs/2509.18619)]\
+Sep 2025
+
+**OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion**\
+*Yunhan Yang, Yufan Zhou, Yuan–Chen Guo, Zi–Xin Zou, Yukun Huang, et al.*\
+SIGGRAPH Asia Conference Papers 2025. (cited: 11) [[Paper](https://arxiv.org/abs/2507.06165)]\
+Jul 2025
+
+**Goku: Flow Based Video Generative Foundation Models**\
+*Shoufa Chen, Chongjian Ge, Yuqi Zhang, Yida Zhang, Fengda Zhu, et al.*\
+IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings 2025. (cited: 11) [[Paper](https://arxiv.org/abs/2502.04896)]\
+Feb 2025
+
+**Rectified Flow: A Marginal Preserving Approach to Optimal Transport**\
+*Qiang Liu*\
+arXiv (Cornell University) 2022. (cited: 11) [[Paper](https://arxiv.org/abs/2209.14577)]\
+Sep 2022
+
+**MotionLab: Unified Human Motion Generation and Editing via the Motion-Condition-Motion Paradigm**\
+*Ziyan Guo, Zeyu Hu, De Wen Soh, Na Zhao*\
+IEEE/CVF International Conference on Computer Vision (ICCV) 2025. (cited: 10) [[Paper](https://arxiv.org/abs/2502.02358)]\
+Feb 2025
+
+**A generative modeling approach to reconstructing 21 cm tomographic data**\
+*Nashwan Sabti, Ram Purandhar Reddy Sudha, Julián B. Muñoz, Siddharth Mishra-Sharma, Taewook Youn*\
+Machine Learning Science and Technology 2024. (cited: 10) [[Paper](https://arxiv.org/abs/2407.21097)]\
+Jul 2024
+
+**Learning trivializing gradient flows for lattice gauge theories**\
+*Simone Bacchio, Pan Kessel, Stefan Schaefer, Lorenz Vaitl*\
+Physical review. D/Physical review. D. 2022. (cited: 31) [[Paper](https://arxiv.org/abs/2212.08469)]\
+Dec 2022
+
+**Distributional Drift Adaptation With Temporal Conditional Variational Autoencoder for Multivariate Time Series Forecasting**\
+*Hui He, Qi Zhang, Kun Yi, Kaize Shi, Zhendong Niu, et al.*\
+IEEE Transactions on Neural Networks and Learning Systems 2022. (cited: 26) [[Paper](https://arxiv.org/abs/2209.00654)]\
+Sep 2022
+
+**Sampling the lattice Nambu-Goto string using Continuous Normalizing Flows**\
+*Michele Caselle, Elia Cellini, Alessandro Nada*\
+Journal of High Energy Physics 2023. (cited: 18) [[Paper](https://arxiv.org/abs/2307.01107)]\
+Jul 2023
+
+**FiVE: A Fine-grained Video Editing Benchmark for Evaluating Emerging Diffusion and Rectified Flow Models**\
+*Ming-Hui Li, Chen-Xi Xie, Yi-Chen Wu, Lei Zhang, Meng-Yu Wang*\
+arXiv.org 2025. (cited: 20) [[Paper](https://arxiv.org/abs/2503.13684)]\
+Mar 2025
+
+**ReFlex: Text-Guided Editing of Real Images in Rectified Flow via Mid-Step Feature Extraction and Attention Adaptation**\
+*Jimyeong Kim, Jungwon Park, Yeji Song, N. Kwak, W. Rhee*\
+IEEE International Conference on Computer Vision 2025. (cited: 18) [[Paper](https://arxiv.org/abs/2507.01496)]\
+Jul 2025
+
+**Efficient Rectified Flow for Image Fusion**\
+*Zi-Rui Wang, Jia-Yi Zhang, Tianwei Guan, Yuhan Zhou, Xing-Yuan Li, et al.*\
+Neural Information Processing Systems 2025. (cited: 18) [[Paper](https://arxiv.org/abs/2509.16549)]\
+Sep 2025
+
+**Fast Image Super-Resolution via Consistency Rectified Flow**\
+*Jiaqi Xu, Wenbo Li, Hao-Ze Sun, Fan Li, Zhi-Xin Wang, et al.*\
+IEEE International Conference on Computer Vision 2026. (cited: 22) [[Paper](https://arxiv.org/abs/2605.12377)]\
+May 2026
+
+**PPGFlowECG: Latent Rectified Flow with Cross-Modal Encoding for PPG-Guided ECG Generation and Cardiovascular Disease Detection**\
+*Xiao-Cheng Fang, Jiarui Jin, Hao-Yu Wang, Che Liu, Jieyi Cai, et al.*\
+arXiv.org 2025. (cited: 13) [[Paper](https://arxiv.org/abs/2509.19774)]\
+Sep 2025
+
+**LoRAShop: Training-Free Multi-Concept Image Generation and Editing with Rectified Flow Transformers**\
+*Yusuf Dalva, Hidir Yesiltepe, Pinar Yanardag*\
+Neural Information Processing Systems 2025. (cited: 15) [[Paper](https://arxiv.org/abs/2505.23758)]\
+May 2025
+
+**Adams Bashforth Moulton Solver for Inversion and Editing in Rectified Flow**\
+*Yong-Jia Ma, Donglin Di, Xuan Liu, Xiao-Kai Chen, Lei Fan, et al.*\
+arXiv.org 2025. (cited: 12) [[Paper](https://arxiv.org/abs/2503.16522)]\
+Mar 2025
+
+**InstantEdit: Text-Guided Few-Step Image Editing with Piecewise Rectified Flow**\
+*Yiming Gong, Zhen Zhu, Min-Jia Zhang*\
+IEEE International Conference on Computer Vision 2025. (cited: 10) [[Paper](https://arxiv.org/abs/2508.06033)]\
+Aug 2025
+
+**I-Max: Maximize the Resolution Potential of Pre-trained Rectified Flow Transformers with Projected Flow**\
+*Ruoyi Du, Dong-Yang Liu, Le Zhuo, Qi Qin, Hongsheng Li, et al.*\
+arXiv.org 2024. (cited: 27) [[Paper](https://arxiv.org/abs/2410.07536)]\
+Oct 2024
+
+**FlowTS: Time Series Generation via Rectified Flow**\
+*Yang Hu, Xiao Wang, Ze-Zhen Ding, Li-Rong Wu, Huatian Zhang, et al.*\
+arXiv 2024. (cited: 25) [[Paper](https://arxiv.org/abs/2411.07506)]\
+Nov 2024
+
+**DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding**\
+*Jungbin Cho, Junwan Kim, Jisoo Kim, Minseo Kim, Min-Gu Kang, et al.*\
+IEEE International Conference on Computer Vision 2024. (cited: 23) [[Paper](https://arxiv.org/abs/2411.19527)]\
+Nov 2024
+
+**FluxSpace: Disentangled Semantic Editing in Rectified Flow Transformers**\
+*Yusuf Dalva, K. Venkatesh, Pinar Yanardag*\
+arXiv.org 2024. (cited: 32) [[Paper](https://arxiv.org/abs/2412.09611)]\
+Dec 2024
+
+**Markovian Flow Matching: Accelerating MCMC with Continuous Normalizing Flows**\
+*A. Cabezas, Louis Sharrock, Christopher Nemeth*\
+Neural Information Processing Systems 2024. (cited: 15) [[Paper](https://arxiv.org/abs/2405.14392)]\
+May 2024
+
+**Normalizing flow sampling with Langevin dynamics in the latent space**\
+*Florentin Coeurdoux, N. Dobigeon, P. Chainais*\
+Machine-mediated learning 2023. (cited: 10) [[Paper](https://arxiv.org/abs/2305.12149)]\
+May 2023
 
 ---
 
